@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9771989b-51b3-4e7c-b47c-ddb973a42c7b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/math/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/MakePyramid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/MakePyramid.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +131,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Factorial">
+  <component name="RunManager" selected="Application.MakePyramid">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="WIDTH" value="0" />
@@ -167,9 +167,10 @@
       </method>
     </configuration>
     <configuration name="MakePyramid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_301\jre" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="math.MakePyramid" />
-      <module name="CodingExamMarch2018" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="MidtermCodingExam" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="math.*" />
@@ -248,9 +249,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MakePyramid" />
         <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.Fibonacci" />
-        <item itemvalue="Application.MakePyramid" />
         <item itemvalue="Application.PrimeNumber" />
         <item itemvalue="Application.UnitTestingStringProblem" />
       </list>
