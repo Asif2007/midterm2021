@@ -1,45 +1,63 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.
+A. A programming language is a set of commands, instructions and other syntax use to create a software program.
 
 What jdk contains or composed of and define each components?
-A.
+A. JDK contains:
+1. Java Runtime Environment (JRE)
+2. An interpreter (java)
+3. A compiler (javac)
+4. An archiver (jar)
 
 What is IDE?
-A.
+A. IDE stands for 'integrated development environment', which is software for building applications that
+combines common developer tools into a single graphical user interface.
 
 What are the IDEs available in the market to support java?
-A.
+A. The IDEs available are:
+1. IntelliJ
+2. Eclipse
+3. Netbeans
+4. JDeveloper.
 
 Explain the entire java life cycle.
 A.
 
 what is class?
-A.
+A. A class is a user defined blueprint from which objects are created. It represents the set of properties or methods
+that are common to all objects of one type.
 
 What is object?
-A.
+A. Object is an instance of a class. An object in OOPs is nothing but a self-contained component which consists of
+methods and properties to make a particular type of data useful.
 
 What is the entry point of an application?
-A.
+A. An application entry point identifies a resource that is an access point to an application. Application entry points
+are used to control users' access to different versions of an application that is deployed on a platform.
 
 Why main is static?
-A.
+A. Main method is always static, so that compiler can call it without the creation of an object or before the
+creation of an object of the class.
 
 Which class is the superclass of all classes?
-A.
+A. Object class is the superclass of the class hierarchy, which is present in java. lang package.
 
 What is difference between path and classpath variables?
-A.
+A. The main difference between path and classpath is that path is an environment variable that is used to locate JDK
+binaries like the "java" or "javac" command used to run java program and compile the java source file. On the other hand,
+CLASSPATH, an environment variable is used by System or Application ClassLoader to locate and load compile Java bytecodes
+stored in the .class file.
 
 What is the difference between an Interface and Abstract class?
-A.
+A. Abstract class can have abstract and non-abstract methods. Interface can have only abstract methods.
+Since Java 8, it can have default and static methods as well. Also, an abstract class can extend another Java class and
+implement multiple Java interfaces. An interface can extend another java interface only.
 
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
 A.
 
-what is Access Specifier?
+What is Access Specifier?
 A.
 
 What is OOP ? Define each feature of java OOP.
