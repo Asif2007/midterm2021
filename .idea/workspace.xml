@@ -130,7 +130,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConnectDB">
+  <component name="RunManager" selected="Application.DataReader">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="WIDTH" value="0" />
@@ -144,6 +144,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="databases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.DataReader" />
+      <module name="MidtermCodingExam" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datastructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,20 +207,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnitTestingMath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="math.UnitTestingMath" />
-      <module name="MidtermCodingExam" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="math.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -242,16 +242,16 @@
       <item itemvalue="Application.Numbers" />
       <item itemvalue="Application.UnitTestSorting" />
       <item itemvalue="Application.ConnectDB" />
-      <item itemvalue="Application.UnitTestingMath" />
       <item itemvalue="Application.UnitTestConnectDB" />
+      <item itemvalue="Application.DataReader" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DataReader" />
         <item itemvalue="Application.ConnectDB" />
         <item itemvalue="Application.UnitTestConnectDB" />
         <item itemvalue="Application.UnitTestSorting" />
         <item itemvalue="Application.Numbers" />
-        <item itemvalue="Application.UnitTestingMath" />
       </list>
     </recent_temporary>
   </component>
