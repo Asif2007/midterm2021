@@ -16,12 +16,38 @@ public class EmployeeInfo extends EmployeeAbstract implements Employee {
 	 * Use Exception Handling.*/
 
 	//implementation here...
+	int employeeId;
+	String employeeName;
 
+	public EmployeeInfo(int employeeId, String employeeName) {
+		this.employeeId = employeeId;
+		this.employeeName = employeeName;
+	}
 
 	/*declare few static and final fields and some non-static fields*/
 
-    //implementation here...
-
+	//implementation here...
+	int age;
+	String gender;
+	String major;
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public int getAge() {
+		return this.age;
+	}
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+	public String getGender() {
+		return this.gender;
+	}
+	public void setMajor(String major) {
+		this.major = major;
+	}
+	public String getMajor() {
+		return this.major;
+	}
 
 	/*You must implement the logic for below 2 methods and
 	 * following 2 methods are prototype as well for other methods need to be design,
@@ -31,7 +57,7 @@ public class EmployeeInfo extends EmployeeAbstract implements Employee {
 	 * Must implement below constructor.
 	 */
 
-    //implementation here...
+	//implementation here...
 
 
 	/*
@@ -61,14 +87,14 @@ public class EmployeeInfo extends EmployeeAbstract implements Employee {
 	public static double calculateEmployeePension(int salary){
 		double total=0;
 
-        //implementation here...
-
-
+		//implementation here...
+		total = salary * .05;
+		System.out.println("Employee's pension = "+total+"$");
 		return total;
 	}
 
 
-    //implementation here...
+	//implementation here...
 
 
 
@@ -154,4 +180,5 @@ public class EmployeeInfo extends EmployeeAbstract implements Employee {
 			return date;
 		}
 	}
+
 }

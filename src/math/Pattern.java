@@ -2,6 +2,8 @@ package math;
 
 import databases.ConnectDB;
 
+import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,7 +18,42 @@ public class Pattern {
 		 */
 
 		//implementation here...
+		int[] arr = patternFunc();
 
+		try {
+			ConnectDB connectDB = new ConnectDB();
+			connectDB.insertDataFromArrayToMySql(arr, "pattern_tbl", "SortingNumbers");
+			List<String> numbers = connectDB.readDataBase("pattern_tbl", "SortingNumbers");
+			for (String st : numbers) {
+				System.out.println(st);
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
 
+	public static int[] patternFunc() {
+		int value = 100;
+		ArrayList<Integer> num = new ArrayList<>();
+		num.add(value);
+		int idx = 0;
+		for (int i = 1; i <= 10; i++) {
+			for (int j = 0; j < 10; j++) {
+				idx++;
+				value -= i;
+				if (value >= 0) {
+					num.add(value);
+				} else
+					break;
+
+			}
+		}
+		int[] arr = new int[num.size()];
+		idx = 0;
+		for (int val : num) {
+			arr[idx] = val;
+			idx++;
+		}
+		return arr;
 	}
 }

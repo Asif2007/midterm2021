@@ -14,28 +14,31 @@ public class FindMissingNumber {
 
 
         //implementation here...
-int[] numbers = {1,2,3,4,5,6,7,8,10};
+        int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 10};
+        missingFunc(numbers);
 
-int N = 10;
-int idealSum = (N *(N+1)) / 2;
-int sum = calculateSum(numbers);
-
-int missingNumbers = idealSum - sum;
-System.out.println("The missing number: ");
-System.out.println(missingNumbers);
     }
 
     private static int calculateSum(int[] numbers) {
-int sum = 0;
-for (int n: numbers) {
-    sum += n;
+        int sum = 0;
+        for (int n : numbers) {
+            sum += n;
 
-}
+        }
 
-return sum;
+        return sum;
 
     }
 
+    public static int missingFunc(int[] numbers) {
+        int N = 10;
+        int idealSum = (N * (N + 1)) / 2;
+        int sum = calculateSum(numbers);
 
+        int missingNumbers = idealSum - sum;
+        System.out.println("The missing number: ");
+        System.out.println(missingNumbers);
+        return missingNumbers;
+    }
 
 }

@@ -19,21 +19,28 @@ public class MakePyramid {
         Scanner scan = new Scanner (System.in);
         System.out.print("Enter number of rows :");
         rows = scan.nextInt();
+        pyramidFunc(rows);
+
+    }
+
+    public static int pyramidFunc(int rows) {
+        int total = 0;
+        int i, space, k=0;
         for(i=1; i<=rows; i++)
         {
             for(space=1; space<=(rows-i); space++)
             {
                 System.out.print("");
             }
-        while(k != (2*i-1))
-        {
-            System.out.print("*");
-            k++;
+            while(k != (2*i-1))
+            {
+                System.out.print("*");
+                k++;
+                total ++;
+            }
+            k = 0;
+            System.out.println();
         }
-        k = 0;
-        System.out.println();
-        }
-
-
+        return total;
     }
-  }
+}

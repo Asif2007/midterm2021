@@ -14,7 +14,29 @@ public class UseQueue {
 		 */
 
 		//implementation here
+		Queue<String> que=new LinkedList<String>();
+		que.add("first");
+		que.offer("second");
+		que.offer("third");
+		for(int i=0; i<10; i++) {
+			que.add("que"+i);
+		}
+		System.out.println(que.peek());
+		que.remove();
+		System.out.println(que.peek());
+		que.remove("que7");
+		System.out.println(que.poll());
+		for(String st: que) {
+			System.out.println(st);
+		}
+		System.out.println("\n===============\n");
+		Iterator<String> iterator = que.iterator();
+		while (iterator.hasNext()) {
+			System.out.println(iterator.next());
+		}
+	}
+
 
 	}
 
-}
+

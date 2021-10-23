@@ -5,6 +5,8 @@ import databases.ConnectDB;
 import java.util.List;
 import java.util.Random;
 
+import java.util.List;
+import java.util.Random;
 public class Numbers {
 
 	/*
@@ -38,11 +40,77 @@ public class Numbers {
 		System.out.println("Total Execution Time of " + num.length + " numbers in Insertion Sort take: " + insertionSortExecutionTime + " milli sec");
 
 		//By following above, Continue for rest of the Sorting Algorithm....
+		connectDB.insertDataFromArrayToMySql(num, "insertion_sort", "SortingNumbers");
+		numbers = connectDB.readDataBase("insertion_sort", "SortingNumbers");
+		printValue(numbers);
+		n = num.length;
+		randomize (num, n);
 
+		// bubbleSort
+		algo.bubbleSort(num);
+		long bubbleSortExecutionTime = algo.executionTime;
+		System.out.println("Total Execution Time of " + num.length + " numbers in Bubble Sort take: " + bubbleSortExecutionTime + " milli sec");
+		connectDB.insertDataFromArrayToMySql(num, "bubble_sort", "SortingNumbers");
+		numbers = connectDB.readDataBase("bubble_sort", "SortingNumbers");
+		printValue(numbers);
+		n = num.length;
+		randomize (num, n);
+
+		// mergeSort
+		algo.mergeSort(num);
+		long mergeSortExecutionTime = algo.executionTime;
+		System.out.println("Total Execution Time of " + num.length + " numbers in Merge Sort take: " + mergeSortExecutionTime + " milli sec");
+		connectDB.insertDataFromArrayToMySql(num, "merge_sort", "SortingNumbers");
+		numbers = connectDB.readDataBase("merge_sort", "SortingNumbers");
+		printValue(numbers);
+		n = num.length;
+		randomize (num, n);
+
+		// quickSort
+		algo.quickSort(num, 0, num.length-1);
+		long quickSortExecutionTime = algo.executionTime;
+		System.out.println("Total Execution Time of " + num.length + " numbers in Quick Sort take: " + quickSortExecutionTime + " milli sec");
+		connectDB.insertDataFromArrayToMySql(num, "quick_sort", "SortingNumbers");
+		numbers = connectDB.readDataBase("quick_sort", "SortingNumbers");
+		printValue(numbers);
+		n = num.length;
+		randomize (num, n);
+
+		// heapSort
+		algo.heapSort(num);
+		long heapSortExecutionTime = algo.executionTime;
+		System.out.println("Total Execution Time of " + num.length + " numbers in Heap Sort take: " + heapSortExecutionTime + " milli sec");
+		connectDB.insertDataFromArrayToMySql(num, "heap_sort", "SortingNumbers");
+		numbers = connectDB.readDataBase("heap_sort", "SortingNumbers");
+		printValue(numbers);
+		n = num.length;
+		randomize (num, n);
+
+		// bucketSort
+		algo.bucketSort(num);
+		long bucketSortExecutionTime = algo.executionTime;
+		System.out.println("Total Execution Time of " + num.length + " numbers in Bucket Sort take: " + bucketSortExecutionTime + " milli sec");
+		connectDB.insertDataFromArrayToMySql(num, "bucket_sort", "SortingNumbers");
+		numbers = connectDB.readDataBase("bucket_sort", "SortingNumbers");
+		printValue(numbers);
+		n = num.length;
+		randomize (num, n);
+
+		// shellSort
+		algo.shellSort(num);
+		long shellSortExecutionTime = algo.executionTime;
+		System.out.println("Total Execution Time of " + num.length + " numbers in Shell Sort take: " + shellSortExecutionTime + " milli sec");
+		connectDB.insertDataFromArrayToMySql(num, "shell_sort", "SortingNumbers");
+		numbers = connectDB.readDataBase("shell_sort", "SortingNumbers");
+		printValue(numbers);
+		n = num.length;
+		randomize (num, n);
 
 
 		//Come to conclusion about which Sorting Algo is better in given data set.
-
+       /*
+       The bubble sort.
+        */
 	}
 
 	public static void storeRandomNumbers(int [] num){

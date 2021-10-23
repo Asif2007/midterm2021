@@ -14,15 +14,20 @@ public class Factorial {
 
 
         //implementation here...
+        factFunc(5);
+    }
+
+    public static int factFunc(int number) {
         int i, fact = 1;
-        int number = 5;
         for(i = 1; i<=number; i++) {
             fact = fact*i;
 
         }
- System.out.println("Factorial of" + number + "is:" + fact);
+        System.out.println("Factorial of" + number + "is:" + fact);
 
-
+        return fact;
     }
 
 }
+
+
