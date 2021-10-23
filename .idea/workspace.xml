@@ -128,7 +128,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Pattern">
+  <component name="RunManager" selected="Application.PrimeNumber">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="WIDTH" value="0" />
@@ -142,20 +142,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="math.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FortuneEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="design.FortuneEmployee" />
-      <module name="MidtermCodingExam" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="design.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,6 +165,20 @@
     </configuration>
     <configuration name="Pattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="math.Pattern" />
+      <module name="MidtermCodingExam" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="math.PrimeNumber" />
       <module name="MidtermCodingExam" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -237,19 +237,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FortuneEmployee" />
       <item itemvalue="Application.UnitTestingEmployeeInfo" />
       <item itemvalue="Application.FindMissingNumber" />
       <item itemvalue="Application.LowestNumber" />
       <item itemvalue="Application.Pattern" />
+      <item itemvalue="Application.PrimeNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrimeNumber" />
         <item itemvalue="Application.Pattern" />
         <item itemvalue="Application.LowestNumber" />
         <item itemvalue="Application.FindMissingNumber" />
         <item itemvalue="Application.UnitTestingEmployeeInfo" />
-        <item itemvalue="Application.FortuneEmployee" />
       </list>
     </recent_temporary>
   </component>
