@@ -128,26 +128,12 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UnitTestingMath">
+  <component name="RunManager" selected="Application.UnitTestConnectDB">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="WIDTH" value="0" />
       <option name="HEIGHT" value="0" />
       <module />
-    </configuration>
-    <configuration name="FindMissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="math.FindMissingNumber" />
-      <module name="MidtermCodingExam" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="math.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="LowestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="math.LowestNumber" />
@@ -184,6 +170,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnitTestConnectDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="databases.UnitTestConnectDB" />
+      <module name="MidtermCodingExam" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="databases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -237,19 +237,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FindMissingNumber" />
       <item itemvalue="Application.LowestNumber" />
       <item itemvalue="Application.Pattern" />
       <item itemvalue="Application.PrimeNumber" />
       <item itemvalue="Application.UnitTestingMath" />
+      <item itemvalue="Application.UnitTestConnectDB" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UnitTestConnectDB" />
         <item itemvalue="Application.UnitTestingMath" />
         <item itemvalue="Application.PrimeNumber" />
         <item itemvalue="Application.Pattern" />
         <item itemvalue="Application.LowestNumber" />
-        <item itemvalue="Application.FindMissingNumber" />
       </list>
     </recent_temporary>
   </component>
