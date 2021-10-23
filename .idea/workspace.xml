@@ -128,7 +128,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LowestNumber">
+  <component name="RunManager" selected="Application.Pattern">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="WIDTH" value="0" />
@@ -177,13 +177,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnitTestingEmployeeInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="design.UnitTestingEmployeeInfo" />
+    <configuration name="Pattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="math.Pattern" />
       <module name="MidtermCodingExam" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="design.*" />
+          <option name="PATTERN" value="math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,13 +191,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructure.UseQueue" />
+    <configuration name="UnitTestingEmployeeInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="design.UnitTestingEmployeeInfo" />
       <module name="MidtermCodingExam" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datastructure.*" />
+          <option name="PATTERN" value="design.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -237,19 +237,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.UseQueue" />
       <item itemvalue="Application.FortuneEmployee" />
       <item itemvalue="Application.UnitTestingEmployeeInfo" />
       <item itemvalue="Application.FindMissingNumber" />
       <item itemvalue="Application.LowestNumber" />
+      <item itemvalue="Application.Pattern" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Pattern" />
         <item itemvalue="Application.LowestNumber" />
         <item itemvalue="Application.FindMissingNumber" />
         <item itemvalue="Application.UnitTestingEmployeeInfo" />
         <item itemvalue="Application.FortuneEmployee" />
-        <item itemvalue="Application.UseQueue" />
       </list>
     </recent_temporary>
   </component>
