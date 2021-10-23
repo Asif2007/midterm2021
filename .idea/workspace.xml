@@ -165,13 +165,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="math.PrimeNumber" />
+    <configuration name="UnitTestConnectDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="databases.UnitTestConnectDB" />
       <module name="MidtermCodingExam" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="math.*" />
+          <option name="PATTERN" value="databases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -242,16 +242,16 @@
       <item itemvalue="Application.Numbers" />
       <item itemvalue="Application.UnitTestSorting" />
       <item itemvalue="Application.ConnectDB" />
-      <item itemvalue="Application.PrimeNumber" />
       <item itemvalue="Application.UnitTestingMath" />
+      <item itemvalue="Application.UnitTestConnectDB" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ConnectDB" />
+        <item itemvalue="Application.UnitTestConnectDB" />
         <item itemvalue="Application.UnitTestSorting" />
         <item itemvalue="Application.Numbers" />
         <item itemvalue="Application.UnitTestingMath" />
-        <item itemvalue="Application.PrimeNumber" />
       </list>
     </recent_temporary>
   </component>
